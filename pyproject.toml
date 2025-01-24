@@ -1,0 +1,21 @@
+[project]
+name = "peplinkctl"
+version = "0.1.0"
+description = "Peplink Router API"
+authors = [
+    {name = "Ryan Govostes", email = "rgovostes@whoi.edu"}
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+ros = []  # TODO
+
+[project.scripts]
+peplinkctl = "peplinkctl:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {where = ["src"]}
