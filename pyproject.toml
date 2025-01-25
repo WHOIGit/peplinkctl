@@ -1,6 +1,6 @@
 [project]
 name = "peplinkctl"
-version = "0.1.0"
+version = "0.2.0"
 description = "Peplink Router API"
 authors = [
     {name = "Ryan Govostes", email = "rgovostes@whoi.edu"}
