@@ -132,7 +132,7 @@ def get_status_wan_connection(server, token):
 
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(prog='peplinkctl')
     parser.add_argument('-s', '--server', required=True)
     parser.add_argument('-k', '--no-verify-ssl', action='store_true')
     parser.add_argument('-t', '--token')
